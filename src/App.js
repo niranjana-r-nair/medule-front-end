@@ -1,5 +1,4 @@
-import logo from './logo.svg';
-import loginsignup from './component/loginsignup/loginsignup';
+import LoginSignup from './components/LoginSignup/LoginSignup';
 import './App.css';
 
 function App() {
@@ -7,8 +6,7 @@ function App() {
 return (
 
 <div>
-  <loginsignup/>
-
+  <LoginSignup />
 </div>
 
 );
