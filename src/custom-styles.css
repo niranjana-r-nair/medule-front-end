@@ -1,0 +1,30 @@
+/* custom-styles.css */
+:root {
+    --primary-color: #9195F6;
+    --secondary-color: #B7C9F2;
+    --tertiary-color: #F9F07A;
+    --quaternary-color: #FB88B4;
+  }
+  
+  body {
+    background-color: var(--secondary-color);
+  }
+  
+  .card {
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .btn-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color); /* If you need a border */
+  }
+  
+  .text-secondary {
+    color: var(--quaternary-color);
+  }
+  
+  .link-secondary:hover {
+    color: var(--tertiary-color);
+  }
+  

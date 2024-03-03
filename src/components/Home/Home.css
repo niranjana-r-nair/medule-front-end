@@ -1,0 +1,20 @@
+.add-card {
+    background-color: #f8f9fa; /* Light gray background for the placeholder card */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+  }
+  
+  .add-card-button {
+    background-color: var(--secondary-color); /* Secondary color for the button background */
+    color: white; /* White color for the plus icon */
+    border: none;
+    width: 60px; /* or any size you prefer */
+    height: 60px;
+    border-radius: 50%; /* Makes the button round */
+    font-size: 30px; /* Adjust plus sign size */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
