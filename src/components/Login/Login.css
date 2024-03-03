@@ -1,0 +1,9 @@
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.brand {
+    color: var(--primary-color);
+    font-weight: bold;
+}

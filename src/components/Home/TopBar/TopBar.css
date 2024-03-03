@@ -1,0 +1,21 @@
+.navbar {
+    color: var(--primary-color);
+    background-color: white;
+
+    .navbar-brand {
+        color: var(--primary-color);
+        font-weight: bold;
+    }
+
+    box-shadow: rgba(0,0,0, 0.2) 0px 1px 9px 1px;
+}
+
+.navbar:hover {
+
+    color: var(--tertiary-color); 
+    background-color: var(--quaternary-color); 
+
+    .navbar-brand {
+        color: var(--tertiary-color);
+    }
+}

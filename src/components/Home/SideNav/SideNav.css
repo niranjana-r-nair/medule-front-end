@@ -1,0 +1,14 @@
+.side-nav-link{
+    color: var(--primary-color); /* Use primary color for default state */
+    font-weight: bold;
+  }
+  
+  .side-nav-link:hover {
+    color: var(--tertiary-color); /* Use tertiary color on hover */
+    background-color: var(--quaternary-color); /* Use quaternary color for the background on hover */
+  }
+  
+  .active .side-nav-link {
+    color: white !important; /* White text for active state */
+    background-color: var(--primary-color) !important; /* Use primary color for background of active state */
+  }
