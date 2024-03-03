@@ -1,5 +1,5 @@
 import logo from './logo.svg';
-
+import loginsignup from './component/loginsignup/loginsignup';
 import './App.css';
 
 function App() {
